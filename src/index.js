@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/app.jsx';
+import questions from './mock/question';
 
-const Settings = {
-  errorCount: 23,
-};
-
-ReactDOM.render(<App errorsCount={Settings.errorCount}/>, document.getElementById(`root`));
+ReactDOM.render(
+    <App
+      questions={questions}
+    />, document.getElementById(`root`));

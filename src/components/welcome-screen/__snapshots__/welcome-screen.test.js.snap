@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<WelcomeScreen/> should render errors 1`] = `
+exports[`<WelcomeScreen/> should render with errors 1`] = `
 <section
   className="welcome"
 >
@@ -41,9 +41,7 @@ exports[`<WelcomeScreen/> should render errors 1`] = `
       Нужно ответить на все вопросы.
     </li>
     <li>
-      Можно допустить 
-      5
-       ошибки.
+      Можно допустить 3 ошибки.
     </li>
   </ul>
   <p
